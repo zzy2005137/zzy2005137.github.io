@@ -10,7 +10,7 @@ Here are some personal project practice.
 
 ### Project 1: Web Page by Golang
 
-[Introduction](https://zzy2005137.github.io/Booklist/introduction.md)
+[Introduction](https://github.com/zzy2005137/zzy2005137.github.io/Booklist/introduction.md)
 
 View : html and css 
 
