@@ -1,7 +1,5 @@
 # My First Github Page
 
-[实现目录与文件跳转](#实现目录与文件跳转)
-
 > 记录github pages 入门使用过程
 
 不得不说，github的guide做的是真的好，不管是页面还是内容，简洁好看易懂。希望能够学到一点其写作与排版的风格。
@@ -67,6 +65,8 @@ markdown 使用 `[]()` 进行链接跳转，若要实现在github page 上文件
 ### 页内目录跳转
 
 `Take me to [pookie](#pookie)`
+
+`pookie`为各个标题名，成为anchor point
 
 
 
