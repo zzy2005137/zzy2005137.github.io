@@ -58,9 +58,17 @@ markdown 使用 `[]()` 进行链接跳转，若要实现在github page 上文件
 
 如：`[Introduction](Booklist/introduction.html)`
 
+（）内可使用相对路径或绝对路径，绝对路径的开头为 `https://zzy2005137.github.io`
+
+`[Introduction](https://zzy2005137.github.io/Booklist/introduction.html)`
+
+返回主目录
+
+`[HOME](https://zzy2005137.github.io/Booklist)`
+
 ### 图片
 
-图片地址则指定相对路径即可
+图片地址则指定相对路径或绝对路径即可
 
 ### 页内目录跳转
 
@@ -72,5 +80,5 @@ markdown 使用 `[]()` 进行链接跳转，若要实现在github page 上文件
 
 
 
-[HOME](README.html)
+
 

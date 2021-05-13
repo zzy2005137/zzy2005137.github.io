@@ -12,4 +12,13 @@
 
 <img src="img\view1.PNG" alt="view1" style="zoom:67%;" />
 
-[HOME](/README.html)
+[HOME](https://zzy2005137.github.io)
+
+[Introduction](https://zzy2005137.github.io/Booklist/introduction.html)
+
+[View : html and css ](https://zzy2005137.github.io/Booklist/View.html)
+
+[Controller :   Go  http package ](https://zzy2005137.github.io/Booklist/Controller.html)
+
+[Model : database](https://zzy2005137.github.io/Booklist/Model.html) 
+
