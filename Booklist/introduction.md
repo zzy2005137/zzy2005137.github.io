@@ -12,4 +12,4 @@
 
 <img src="img\view1.PNG" alt="view1" style="zoom:67%;" />
 
-[HOME](/README.html)
+[HOME](https://zzy2005137.github.io/README.html)
