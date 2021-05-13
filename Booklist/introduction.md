@@ -8,7 +8,7 @@
 
 初期效果如图：
 
-<img src="Booklist\img\addview.PNG" alt="addview" style="zoom:67%;" />
+<img src="img\addview.PNG" alt="addview" style="zoom:67%;" />
 
-<img src="Booklist\img\view1.PNG" alt="view1" style="zoom:67%;" />
+<img src="img\view1.PNG" alt="view1" style="zoom:67%;" />
 
