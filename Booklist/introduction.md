@@ -8,7 +8,7 @@
 
 初期效果如图：
 
-<img src="D:\zzytemp\github_page\zzy2005137.github.io\Booklist\img\addview.PNG" alt="addview" style="zoom:67%;" />
+<img src="Booklist\img\addview.PNG" alt="addview" style="zoom:67%;" />
 
-<img src="D:\zzytemp\github_page\zzy2005137.github.io\Booklist\img\view1.PNG" alt="view1" style="zoom:67%;" />
+<img src="Booklist\img\view1.PNG" alt="view1" style="zoom:67%;" />
 
