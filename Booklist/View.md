@@ -29,7 +29,7 @@
 
 ### Element, Tag and Attribute
 
-代码结构：
+html代码结构：
 
 ``` html
 <!DOCTYPE html>
@@ -80,19 +80,107 @@ HTML中最最基本的单元是`element` , `element` 由 `opening tag` 、 `cont
 
 我的Booklist毫无疑问要显示一条条图书的信息，所以需要用到 `table`相关的标签
 
++ 基本结构
+
+```html
+<!--table的结构-->
+<table>
+    <thead>
+       <tr>
+        <th>Name</th>
+         <th>Age</th>
+       </tr>
+	</thead>
+    
+    <tbody>
+    	<tr>
+        <td>Peter</td>
+        <td>18</td>
+		 </tr>
+    </tbody>
+    
+    <tfoot></tfoot>
+</table>
+```
+
+可以看出，`table`的层级结构十分明显，``<table>`之后紧跟着`<thead>`和`<tbody>`, 用以区分表头和数据。
+
+每一行的数据都必须包含在一个`<tr>`里。`th, td` 则是存放数据的最终单元`cell`
+
+
+
++ Attribute
+
+``` html
+用于合并单元格
+<td colspan="4">This</td>
+<td rowspan="3">Little</td>
+```
+
+
+
++ 样式设计
+
+```css
+table{
+   border-collapse: collapse; //边界重叠
+   width: 100%
+}
+
+td, th{
+   border: 1px solid #ccc;
+	padding:10px;
+   text-align: left;
+}
+
+//选中行高亮
+tr:hover{
+    background-color:
+}
+
+//阴影
+table{}
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+```
+
 
 
 ### Form
 
+表单用于提交数据，用户填写的数据被打包到`request`中，交给服务器处理。
 
+Booklist要添加新的图书信息时，需要用到表单。
 
-### 
++ 结构
+
+```html
+<form action="add" method="post">
+    //action为add，当点击提交时，url会追加/add, 然后在golang中指定动作
+    <lable for="bookname">BookName</lable><br>
+    <input id="bookname" type="text" name="BookName"><br>
+    <input type="subumit" value="Submit">
+</form>
+
+```
+
++ input类型
+
+text, text area , password, radio button , check box , drop down list box , submit
+
++ lable 与 id
+
+`lable`用来将提示内容和input绑定在一起，通过指定 `attribute` 的 `for = “id_name”`实现。
+
+效果是扩大点击选中的范围，点击提示内容时也能选中input
 
 
 
 ## CSS
 
-
+### Box Model !!
 
 
 
