@@ -4,12 +4,15 @@
 
 ## Overview
 
-页面设计我只用到了HTML与CSS。我希望我我写的文档能够帮助我理解关于这些技术，一些最基本的、最核心的概念，以及它们之间的关系。以此让我对前端设计有更好的理解，对主干的东西能够有所把握。
+页面设计我只用到了HTML与CSS。我希望我我写的文档能讲清楚一些最基本的、最核心的概念，以及它们之间的关系。
 
 所以以下内容将会被涵盖到：
 
 + 什么是HTML与CSS，它们的作用与关系
-+ 如何使用HTML与CSS设计网页
+
++ 如何使用HTML与CSS设计简单的网页
+
+  
 
 ## What is
 
@@ -21,6 +24,8 @@
 
 结构设计由HTML负责，样式设计由CSS负责，二者各有分工，同时相互合作。此外，网页区别于书本等纸质材料最大的特点是交互性，它能够根据用户的动作，而选择干什么，而这种动态交互的功能，则用JavaScript实现。三者都可以说是一种语言，但HTML 与 CSS 并不是严格意义上的编程语言，只能算是一种标记语言。
 
+
+
 ## HTML
 
 > HTML describe the structure of pages using elements
@@ -29,7 +34,7 @@
 
 ### Element, Tag and Attribute
 
-html代码结构：
++ html代码结构：
 
 ``` html
 <!DOCTYPE html>
@@ -60,6 +65,8 @@ HTML中最最基本的单元是`element` , `element` 由 `opening tag` 、 `cont
 
 
 
+
+
 ### 常用的Tags
 
 ``` html
@@ -73,6 +80,8 @@ HTML中最最基本的单元是`element` , `element` 由 `opening tag` 、 `cont
 
 <div>占据一个block空间，与css一起使用实现布局设计</div>
 ```
+
+
 
 
 
@@ -103,7 +112,7 @@ HTML中最最基本的单元是`element` , `element` 由 `opening tag` 、 `cont
 </table>
 ```
 
-可以看出，`table`的层级结构十分明显，``<table>`之后紧跟着`<thead>`和`<tbody>`, 用以区分表头和数据。
+可以看出，`table`的层级结构十分明显，`<table>`之后紧跟着`<thead>`和`<tbody>`, 用以区分表头和数据。
 
 每一行的数据都必须包含在一个`<tr>`里。`th, td` 则是存放数据的最终单元`cell`
 
@@ -123,7 +132,7 @@ HTML中最最基本的单元是`element` , `element` 由 `opening tag` 、 `cont
 
 ```css
 table{
-   border-collapse: collapse; //边界重叠
+   border-collapse: collapse; // 边界重叠
    width: 100%
 }
 
@@ -139,12 +148,14 @@ tr:hover{
 }
 
 //阴影
-table{}
+table{
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 
 ```
+
+
 
 
 
@@ -180,15 +191,129 @@ text, text area , password, radio button , check box , drop down list box , subm
 
 ## CSS
 
+> CSS 核心思想，每个`element`都住在一个BOX里，选中BOX，然后指定样式。
+
+
+
 ### Box Model !!
 
+<img src="img\box.png" alt="box" style="zoom: 67%;" />
 
 
 
+### Selector
+
+```css
+.class_name{
+    background-color: green;
+}
+
+#id_name{
+    
+}
+
+.class_name p{
+    
+}
+
+td,
+th{
+    
+}
+```
 
 
 
+### 优先级
 
+**inline > internal > external**
+
+
+
+### Layout  版面布局
+
+<img src="img\layout.png" alt="layout" style="zoom:80%;" />
+
+
+
+与`float`相比，`flex`和`grid` **模块**是实现页面布局更好的选择。参考[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
+
+#### FLEX
+
+Flex 是一个模块，而不是一个单独的property，所以涉及的内容较多。使用时主要注意：
+
++ FlexBox 分为 `Flex Container` 和 `Flex Item` 两个角色
++ 对于 `Flex container` ，注意 `main axis` 与 `cross axis` 的概念  主轴与交叉轴
++ 对于 `Flex Item`，注意 `flex-grow`， `flex-shrink`,  `flex-basis` 的使用
+
+
+
+以制作一个简单的导航栏为例
+
+``` html
+<body>
+    <ul >
+         <li class="box1"><a href="#">HOME</a></li>
+         <li class="box2"><a href="#">LINK1</a></li>
+         <li class="box3"><a href="#">LINK2</a></li>
+         <li class="box4"><a href="#">LINK3</a></li>
+    </ul>
+</body>
+```
+
+
+
++ 修改列表`list`和链接`a`的样式
+
+``` css
+ul {
+   list-style: none;
+   padding:0;
+   margin: 0; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 18px 20px;
+}
+```
+
++ 将 `ul`变成 flex container
+
+```css
+ul {
+    display: flex;
+    background-color:thistle;
+
+    flex-flow: row nowrap;
+    justify-content: flex-end;  // 右对齐
+}
+```
+
++ 把HOME移到最右边显示 （应该有更好的方法）
+
+```css
+.box1{
+    flex-grow: 1;
+}
+```
+
+![flex](img\flex.png)
+
+
+
+## Simplify
+
+页面设计主要用到：
+
+html的 table 和 form
+
+css 的基于box模型，调整间距，背景颜色，以及导航栏简单布局
 
 
 
