@@ -8,7 +8,7 @@ Here are some personal project practice.
 
 ## Index
 
-### Project 1: Web Page by Golang
+### Project 1 : BookList -- go web example
 
 [Introduction](https://zzy2005137.github.io/Booklist/introduction.html)
 
@@ -18,5 +18,11 @@ Here are some personal project practice.
 
 [Model : database](https://zzy2005137.github.io/Booklist/Model.html) 
 
+### Project 2 : TodoList -- gin Framwork
 
+[gin Basics](https://zzy2005137.github.io/todolist/ginBasics.html)
+
+[SQL Review]()
+
+[GORM]()
 
