@@ -47,6 +47,8 @@ func main(){
 
 ### 参数获取——输入
 
+> 不同格式的请求数据的获取
+
 + `query params` 
 
   指的是URL中`?`后面携带的参数，例如：`/user/search?username=小王子&address=沙河`
@@ -108,6 +110,8 @@ func main() {
 ```
 
 ### 参数绑定 ！ 
+
+> 优雅地获取请求数据
 
 `c.ShouldBind()` 自动判断请求类型，接收数据
 
