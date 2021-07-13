@@ -24,5 +24,5 @@ Here are some personal project practice.
 
 [SQL Review](https://zzy2005137.github.io/todolist/SQLbasics.html)
 
-[GORM]()
+[GORM](https://zzy2005137.github.io/todolist/GORM.html)
 
