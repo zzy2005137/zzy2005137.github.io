@@ -22,7 +22,7 @@ Here are some personal project practice.
 
 [gin Basics](https://zzy2005137.github.io/todolist/ginBasics.html)
 
-[SQL Review]()
+[SQL Review](https://zzy2005137.github.io/todolist/SQLbasics.html)
 
 [GORM]()
 
