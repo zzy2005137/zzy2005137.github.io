@@ -26,3 +26,5 @@ Here are some personal project practice.
 
 [GORM](https://zzy2005137.github.io/todolist/GORM.html)
 
+[Loard Config Files--ini.v1](https://zzy2005137.github.io/todolist/iniConfigFile.html)
+
