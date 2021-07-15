@@ -93,7 +93,7 @@ db.Where("name IN ?", []string{"jinzhu", "jinzhu2"}).Find(&users)
 
 ```
 
-[更多查询例子 | GORM ](https://gorm.io/zh_CN/docs/query.html#inline_conditions)
+[更多查询例子 | GORM](https://gorm.io/zh_CN/docs/query.html#inline_conditions)
 
 ### 更新
 
