@@ -51,11 +51,17 @@ trash.addEventListener("dragleave", () => {
 trash.addEventListener("drop", () => {
   trash.classList.remove("active");
 
-  trash.classList.remove("active");
+  // trash.classList.remove("active");
   // content.classList.add("hide");
   // content.classList.remove("show");
   let randomNum = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
 
+  content.innerText = `:) ${message[randomNum]}`;
+  content.classList.add("result");
+});
+
+trash.addEventListener("click", () => {
+  let randomNum = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
   content.innerText = `:) ${message[randomNum]}`;
   content.classList.add("result");
 });
