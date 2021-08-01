@@ -60,8 +60,8 @@ trash.addEventListener("drop", () => {
   content.classList.add("result");
 });
 
-trash.addEventListener("click", () => {
-  let randomNum = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
-  content.innerText = `:) ${message[randomNum]}`;
-  content.classList.add("result");
-});
+// trash.addEventListener("click", () => {
+//   let randomNum = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+//   content.innerText = `:) ${message[randomNum]}`;
+//   content.classList.add("result");
+// });
