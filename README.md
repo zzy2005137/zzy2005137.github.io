@@ -31,3 +31,6 @@ Here are some personal project practice.
 ### Project 3 : 50 Projects 50 Days -- HTML, CSS & JavaScript
 
 [Demo Page](https://zzy2005137.github.io/50projects50days/index/index.html)
+
+[DOM manipulation basics](https://zzy2005137.github.io/DOM/notes.html)
+
