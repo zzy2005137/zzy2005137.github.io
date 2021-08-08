@@ -34,3 +34,7 @@ Here are some personal project practice.
 
 [DOM manipulation basics](https://zzy2005137.github.io/DOM/notes.html)
 
+### Project 4 : booklist v0.2 (Frontend without frameworks)
+
+[booklist v0.2](https://zzy2005137.github.io/booklistV0.2/index.html)
+
