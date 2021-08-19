@@ -40,7 +40,7 @@ Here are some personal project practice.
 
 ### Project 5 : vue-todo-app
 
-[live demo](https://zzy2005137.github.io/vue-todo-app/dist/index.html)
+[live demo](https://vue-todo-qb20.onrender.com/)
 
 [notes]()
 
