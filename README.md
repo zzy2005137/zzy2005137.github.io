@@ -42,5 +42,5 @@ Here are some personal project practice.
 
 [live demo](https://vue-todo-qb20.onrender.com/)
 
-[notes]()
+[Developing Notes](https://zzy2005137.github.io/vue-todo-app/notes.html)
 
