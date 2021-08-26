@@ -112,6 +112,7 @@ nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 nav img {
@@ -962,13 +963,13 @@ footer li {
     z-index: 50;
   }
 
-  /* body {
-    overflow-x: hidden;
-  } */
-
-  header {
+  body {
     overflow-x: hidden;
   }
+
+  /* header {
+    overflow: hidden;
+  } */
   .links {
     position: absolute;
     top: 0;
