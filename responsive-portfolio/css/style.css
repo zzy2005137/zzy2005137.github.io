@@ -963,9 +963,8 @@ footer li {
     z-index: 50;
   }
 
-  html,
-  body {
-    overflow-x: hidden;
+  main {
+    overflow: hidden;
   }
 
   /* header {
