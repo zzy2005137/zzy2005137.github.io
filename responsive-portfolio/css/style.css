@@ -112,7 +112,7 @@ nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  /* position: relative; */
 }
 
 nav img {
@@ -963,6 +963,7 @@ footer li {
     z-index: 50;
   }
 
+  html,
   body {
     overflow-x: hidden;
   }
