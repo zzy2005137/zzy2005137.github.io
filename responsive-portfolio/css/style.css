@@ -962,10 +962,13 @@ footer li {
     z-index: 50;
   }
 
-  body {
+  /* body {
+    overflow-x: hidden;
+  } */
+
+  header {
     overflow-x: hidden;
   }
-
   .links {
     position: absolute;
     top: 0;
