@@ -12,6 +12,14 @@
 /* general-style */
 body {
   font-family: "Poppins", monospace;
+  overflow-x: hidden;
+}
+/* main {
+  overflow: hidden;
+} */
+
+html {
+  scroll-behavior: smooth;
 }
 
 *,
@@ -963,13 +971,10 @@ footer li {
     z-index: 50;
   }
 
-  main {
-    overflow: hidden;
-  }
-
-  /* header {
-    overflow: hidden;
+  /* body {
+    overflow-x: hidden;
   } */
+
   .links {
     position: absolute;
     top: 0;
