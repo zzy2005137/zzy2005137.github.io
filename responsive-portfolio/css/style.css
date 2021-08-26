@@ -984,8 +984,9 @@ footer li {
     background-color: #222222;
     flex-direction: column;
     justify-content: center;
-    transform: translateX(100%);
+    /* transform: translateX(100%); */
     transition: 0.3s;
+    display: none;
   }
   .links li {
     margin-top: 4rem;
@@ -996,6 +997,7 @@ footer li {
   }
 
   .links.show {
-    transform: translateX(0);
+    /* transform: translateX(0); */
+    display: flex;
   }
 }
