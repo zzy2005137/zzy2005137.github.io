@@ -40,7 +40,11 @@ Here are some personal project practice.
 
 ### Project 5 : vue-todo-app
 
-[live demo](https://vue-todo-qb20.onrender.com/)
+[Live Demo](https://vue-todo-qb20.onrender.com/)
 
 [Developing Notes](https://zzy2005137.github.io/vue-todo-app/notes.html)
+
+### Project 6 : Responsive Portfolio Website 
+
+[Live Demo](https://zzy2005137.github.io/responsive-portfolio/index.html)
 
