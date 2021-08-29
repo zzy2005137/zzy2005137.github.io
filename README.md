@@ -44,7 +44,9 @@ Here are some personal project practice.
 
 [Developing Notes](https://zzy2005137.github.io/vue-todo-app/notes.html)
 
-### Project 6 : Responsive Portfolio Website 
+### Project 6 : Responsive Portfolio Website (not fully responsive)
 
 [Live Demo](https://zzy2005137.github.io/responsive-portfolio/index.html)
+
+[Notes and summary (about CSS layout)](https://zzy2005137.github.io/responsive-portfolio/notes.html)
 
