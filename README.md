@@ -50,3 +50,5 @@ Here are some personal project practice.
 
 [Notes and summary (about CSS layout)](https://zzy2005137.github.io/responsive-portfolio/notes.html)
 
+### Project 7 : Grocery Store
+
