@@ -52,3 +52,8 @@ Here are some personal project practice.
 
 ### Project 7 : Grocery Store
 
+[Live Demo]([grocery (vue-grocery.onrender.com)](https://vue-grocery.onrender.com/))
+
+[developing notes](https://zzy2005137.github.io/vue-grocery-store/notes.html)
+
+[leancloud-storage basics](https://zzy2005137.github.io/vue-grocery-store/leancloud.html)
